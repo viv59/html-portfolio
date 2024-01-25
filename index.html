@@ -1,49 +1,65 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
-  </head>
-  <body>
-    <h1>Vivek's Portfolio</h1>
-    <h2>Sample aahe fakt!</h2>
-    <h3>
-      <a href="./public/movie-ranking.html"
-        >Movie Ranking Project</a
-      >
-    </h3>
-    <img
-      src="./assets/images/movie-ranking.png"
-      alt="avadatya movie"
-      height="200"
-    />
-    <h3>
-      <a href="./public/birthday-invite.html"
-        >Birthday Invite Project</a
-      >
-    </h3>
-    <img
-      src="./assets/images/birthday-invite.png"
-      alt="vadhdivas cake"
-      height="200"
-    />
-    <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
-  </body>
+</head>
+
+<body>
+    <header id="header">
+        <!-- <div class="logo">
+            <a href="#" id="logo">Logo</a>
+        </div> -->
+        <input type="checkbox" id="click">
+        <label for="click" class="mainicon">
+            <div class="menu" id="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <!-- <a href="#">Skills</a> -->
+            <!-- <a href="#">Portfolio</a> -->
+            <a href="mailto:210010059@iitdh.ac.in">Contact</a>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="main">
+            <div class="images">
+                <div class="blue-bg-outer">
+                   <div class="white-bg">
+                        <div class="blue-bg">
+                            <img src="vivek.jpeg" alt="image">
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <div class="Information">
+                <h1>Hi, I'm Vivek Gaikwad</h1>
+                 <div class="animated_text">
+                    <!-- <h1 class="title">Web Developer</h1> -->
+                  </div>
+                <div class="social">
+                    <a href="https://github.com/viv59"><i class="bi bi-github"></i></a>
+                    <a href="mailto:210010059@iitdh.ac.in"><i class="bi bi-envelope"></i></a>
+                    <!-- <a href="https://www.instagram.com/web_devs__/"><i class="bi bi-instagram"></i></a> -->
+                    <a href="https://www.linkedin.com/in/vivek-sunil-gaikwad"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1EZSntWHzfcvlv641WCPQzuEgPoE5NIGB/view?usp=sharing">
+                    <button class="cv-btn" >View Resume</button>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+<script src="js/index.js"></script>
+</body>
 </html>
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
